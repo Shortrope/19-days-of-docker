@@ -497,3 +497,16 @@ But you can still use the -p option if needed.
 Chap 7
 ==================================================
 ## 7. Sharing Data with Containers
+
+### Data Volume
+A Data Volume is a part of the Docker Host file system that gets mounted inside
+the container.
+The Data Volume is not part of the container file system
+
+### Sharing Host Data
+
+
+### Sharing Data between Containers
+
+
+### Common Pitfalls
