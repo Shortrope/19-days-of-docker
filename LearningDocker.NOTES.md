@@ -498,15 +498,62 @@ Chap 7
 ==================================================
 ## 7. Sharing Data with Containers
 
-### Data Volume
+### **Data Volume**
 A Data Volume is a part of the Docker Host file system that gets mounted inside
-the container.
-The Data Volume is not part of the container file system
+the container The Data Volume is not part of the container file system
 
-### Sharing Host Data
+    /var/lib/docker/volumes/`<id>`/_data/  
+
+You can create a Volume with a Docker file or with the docker run -v option
+
+    FROM ubuntu:16.04
+    VOLUME /mountpointdemo
+or
+
+    docker run -v /mountpointdemo
+
+You can look for Volume info in an image. If the image was created with a VOLUME in the docker file.
+
+    docker inspect IMAGE_NAME
+
+After starting a container from the image inspect the image with
+
+    docker inspect -f '{{json .Mounts}}' id|name
+
+If you rm the container the volume remains in /var/lib/docker/volumes/`<id>`/
+You can remove the volume when you rm the container
+
+    docker rm -v id|name
+
+_**Example:**_
+
+    FROM ubuntu:16.04
+    VOLUME /mountpointdemo
+
+Build the image
+
+    docker build -t mountpointdemo .
+
+Launch a container
+
+    docker run --rm -it mountpointdemo
+
+In the container create a file in /mountdir
+
+    touch /mountdir/I-was-hear
+
+Then in the host OS check
+
+    /var/lib/docker/volumes/`<id>`/_data/  
+
+and you will see your file.  
+
+### **The Volume Management command**
+
+### **Sharing Host Data**
 
 
-### Sharing Data between Containers
+### **Sharing Data between Containers**
 
 
-### Common Pitfalls
+### **Common Pitfalls**
