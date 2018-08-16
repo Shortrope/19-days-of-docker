@@ -300,7 +300,7 @@ Dockerfile build instructions
   SHELL ["<shell>", "arg-1", "arg-n"]
   - change the default shell
 
-### .dockerignor
+### .dockerignore
 Exclude directories and files
 
   .git
@@ -383,10 +383,9 @@ docker network inspect
 docker network rm
 
 3 Networks exist by default
-
-    bridge
-    host    # shares the host IP address and ports
-    none    # lo only
+- bridge
+- host    # shares the host IP address and ports
+- none    # lo only
 
 Other networks available
 
