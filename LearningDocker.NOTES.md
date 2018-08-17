@@ -375,29 +375,32 @@ Chap 6
 ## 6. Running Services in a Container
 
 ### Container Networking
-docker network ls
-docker network create
-docker network connect
-docker network disconnect
-docker network inspect
-docker network rm
+    docker network ls  
+    docker network inspect  
+    docker network create  
+    docker network rm  
+    docker network connect  
+    docker network disconnect  
 
-3 Networks exist by default
+Three Networks exist by default
 - bridge
-- host    # shares the host IP address and ports
-- none    # lo only
+- host
+- none
+
+The 'bridge' network is an internal NAT'ed network - 172.17.0.x
+The 'host' network shares the host IP address and ports  
+The 'none' network only has the loopback interface - lo
 
 Other networks available
 
-    overlay
-    macvlan
-    ipvlan
+- overlay
+- macvlan
+- ipvlan
 
 A container attaches to 'bridge' by default
-Attach a container to a network 
+Use '--net' to attach a container to a network 
 
-    --net=none
-    docker run --net=host
+    docker run --net=host -it ubuntu /bin/bash
 
 Inspect the network
 
@@ -548,10 +551,33 @@ Then in the host OS check
 and you will see your file.  
 
 ### **The Volume Management command**
+The `docker volume` command has four sub commands
+
+- ls
+- inspect
+- create
+- rm
+
+Create a volume with:
+
+    docker volume create --name mysqldatavol
+
 
 ### **Sharing Host Data**
+You can mount  a host directory of file to a container's data volume during container launch with
+the `-v` option.  
+The `-v` option has five formats
 
+- `-v <container mount path>`
+- `-v <host path>:<container mount path>`
+- `-v <host path>:<container mount path>:<read write mode>`
+- `-v <volume name>:<container mount path>`
+- `-v <volume name>:<container mount path>:<read write mode>`
 
+`<host path>` is an absolute path in the docker host
+`<container mount path>` is an absolute path in the container
+`<read write mode>` can be either `ro` or `rw`
+`<volume name>` is the name of a volume created with `docker volume create`
 ### **Sharing Data between Containers**
 
 
