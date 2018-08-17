@@ -1,17 +1,41 @@
-# 100 Days Of Code - Log
 
-## Day 1: August 13, 2018 - 2hr
-
+<!-- 
+## Day N: August N, 2018 - Nhr
 **Today's Progress**:  
-Finished Chap 6: Binding ports and IP addresses
-Start Chap 7: Volumes
+**Thoughts:**  
+**Link to work:** 
+
+
+---
+-->
+
+# 19 Days Of Docker - Log
+
+## Day 4: August 16, 2018 - 1hr
+**Today's Progress**:  
+Reviewed network bridge and host types
+Continued with Volumes
 
 **Thoughts:**  
-Things are coming to gether now that I can connect to a service in a container
+The book is very shallow on networking. Will have to find another source to dive deeper into this
+subject.
 
-**Link to work:** 
-1. [My Docker Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/LearningDocker.NOTES.md)
-2. [MountPointDemo Dockerfile](https://github.com/Shortrope/19-days-of-docker/tree/master/Chap7/volumes)
+**Link to work:**  
+[Updated Notes](https://github.com/Shortrope/19-days-of-docker/commit/3fdb2f9d226b35ec1b0b7ccac91dcf3385c1fd75)
+
+
+---
+## Day 3: August 15, 2018 - 1hr
+**Today's Progress:**  
+Create and connect to a MySQL container
+Trouble connecting until I inspected the container and realized it is on the 'bridge' network by
+default.  Its IP was 172.17.0.2!.  Installed the mysql client on the host and was able to connect.  
+
+**Thoughts:**  
+Today wanted to do a practical project.  
+
+**Link to work:**  
+[MySQL Docker file and Notes on connecting to the container](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/mysql)
 
 
 ---
@@ -30,24 +54,16 @@ Little tougher to start today. Tired from busy work day, but first pomodoro went
 
 
 ---
-## Day 3: August 15, 2018 - 1hr
-  
-**Today's Progress:**  
-Create and connect to a MySQL container
-Trouble connecting until I inspected the container and realized it is on the 'bridge' network by
-default.  Its IP was 172.17.0.2!.  Installed the mysql client on the host and was able to connect.  
+## Day 1: August 13, 2018 - 2hr
 
-**Thoughts:**  
-Today wanted to do a practical project.  
-
-**Link to work:**  
-[MySQL Docker file and Notes on connecting to the container](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/mysql)
-
----
-
-<!-- 
-## Day N: August N, 2018 - Nhr
 **Today's Progress**:  
+Finished Chap 6: Binding ports and IP addresses
+Start Chap 7: Volumes
+
 **Thoughts:**  
+Things are coming to gether now that I can connect to a service in a container
+
 **Link to work:** 
--->
+1. [My Docker Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/LearningDocker.NOTES.md)
+2. [MountPointDemo Dockerfile](https://github.com/Shortrope/19-days-of-docker/tree/master/Chap7/volumes)
+
