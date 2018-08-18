@@ -4,12 +4,27 @@
 **Today's Progress**:  
 **Thoughts:**  
 **Link to work:**  
-
+<br>
 
 ---
 -->
 
 # 19 Days Of Docker - Log
+
+## Day 6: August 18, 2018 - 1hr
+**Today's Progress**:  
+Finish Chap 7. Sharing data  
+Break notes into separate files for each chapter  
+Start compiling list of things to review and test myself on  
+
+**Thoughts:**  
+Still missing something.. not sure the practicality yet. 
+
+**Link to work:**  
+[Apache Log Reader Scenario](https://github.com/Shortrope/19-days-of-docker/commit/1f1f89ebb37268bcf53601a53ed669dea234dc1f)
+<br> <br>
+
+---
 
 ## Day 5: August 17, 2018 - 1.5hr
 **Today's Progress**:  
@@ -22,7 +37,7 @@ out in a practical scenario
 
 **Link to work:**  
 [Updated Notes](https://github.com/Shortrope/19-days-of-docker/commit/2ac47774eea85c75731cc51520f6ddf13f6932dc)
-
+<br> <br>
 
 ---
 ## Day 4: August 16, 2018 - 1hr
@@ -36,6 +51,7 @@ subject.
 
 **Link to work:**  
 [Updated Notes](https://github.com/Shortrope/19-days-of-docker/commit/3fdb2f9d226b35ec1b0b7ccac91dcf3385c1fd75)
+<br> <br>
 
 
 ---
@@ -50,6 +66,7 @@ Today wanted to do a practical project.
 
 **Link to work:**  
 [MySQL Docker file and Notes on connecting to the container](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/mysql)
+<br> <br>
 
 
 ---
@@ -65,6 +82,7 @@ Little tougher to start today. Tired from busy work day, but first pomodoro went
 **Link to work:** 
 1. [Notes.md](https://github.com/Shortrope/19-days-of-docker/blob/master/LearningDocker.NOTES.md)
 1. [git diff of notes](https://github.com/Shortrope/19-days-of-docker/commit/eab13101b50cf83f2509b1dca621cc42897a29fd)
+<br> <br>
 
 
 ---
