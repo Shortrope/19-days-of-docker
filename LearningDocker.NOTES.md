@@ -564,7 +564,8 @@ Create a volume with:
 
 
 ### **Sharing Host Data**
-You can mount  a host directory of file to a container's data volume during container launch with
+You can mount  a host directory of file to a container's data volume during container launch (but
+not during build with a Dockerfile) with
 the `-v` option.  
 The `-v` option has five formats
 
@@ -578,7 +579,28 @@ The `-v` option has five formats
 `<container mount path>` is an absolute path in the container
 `<read write mode>` can be either `ro` or `rw`
 `<volume name>` is the name of a volume created with `docker volume create`
-### **Sharing Data between Containers**
 
+Create a volume and mount it in a container:
+
+    docker volume create --name myvolume
+    docker run -v myvolume:/myvol -it ubuntu
+
+Mount a  local directory to a mountpoint in a container:
+
+    docker run -v /tmp/mydir:/mydir -it ubuntu
+
+Inspect a containers mounts
+
+    docker inspect --format='{{json .Mounts}}' id|name
+
+### **Sharing Data between Containers**
+The `--volumes-from` option takes a container name or id and automatically mounts all the data
+volumes from that container in this newly created container.  
+You can also mount multiple container volumes  
+
+Create a data container (a data only container) and mount its volumes in a new container
+
+    docker run -v /data --name datacontainer busybox /bin/true
+    docker run --volumes-from datacontainer -it ubuntu /bin/bash
 
 ### **Common Pitfalls**
