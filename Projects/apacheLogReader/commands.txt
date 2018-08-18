@@ -1,0 +1,6 @@
+docker build -t apache2log .
+docker run --name logvol apache2log
+
+run --rm --volumes-from logvol busybox ls -l /var/log/apache2
+run --rm --volumes-from logvol busybox less -l /var/log/apache2/error.log
+run --rm --volumes-from logvol busybox tail -f /var/log/apache2/access.log
