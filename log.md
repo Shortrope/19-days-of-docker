@@ -3,7 +3,7 @@
 ## Day N: August N, 2018 - Nhr
 **Today's Progress**:  
 **Thoughts:**  
-**Link to work:** 
+**Link to work:**  
 
 
 ---
@@ -11,9 +11,23 @@
 
 # 19 Days Of Docker - Log
 
+## Day 5: August 17, 2018 - 1.5hr
+**Today's Progress**:  
+Sharing/mounting a local directory or file in a container
+Sharing/mounting a containers data volume in other containers
+
+**Thoughts:**  
+Some how this seem like management gets quickly out of hand. Currious to find out how all this plays
+out in a practical scenario
+
+**Link to work:**  
+[Updated Notes](https://github.com/Shortrope/19-days-of-docker/commit/2ac47774eea85c75731cc51520f6ddf13f6932dc)
+
+
+---
 ## Day 4: August 16, 2018 - 1hr
 **Today's Progress**:  
-Reviewed network bridge and host types
+Reviewed network bridge and host types  
 Continued with Volumes
 
 **Thoughts:**  
