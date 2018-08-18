@@ -13,11 +13,11 @@
 
 ## Day 5: August 17, 2018 - 1.5hr
 **Today's Progress**:  
-Sharing/mounting a local directory or file in a container
+Sharing/mounting a local directory or file in a container  
 Sharing/mounting a containers data volume in other containers
 
 **Thoughts:**  
-Some how this seem like management gets quickly out of hand. Currious to find out how all this plays
+Some how this seems like management can get out of hand quickly. Curious to find out how all this plays
 out in a practical scenario
 
 **Link to work:**  
@@ -41,7 +41,7 @@ subject.
 ---
 ## Day 3: August 15, 2018 - 1hr
 **Today's Progress:**  
-Create and connect to a MySQL container
+Create and connect to a MySQL container  
 Trouble connecting until I inspected the container and realized it is on the 'bridge' network by
 default.  Its IP was 172.17.0.2!.  Installed the mysql client on the host and was able to connect.  
 
@@ -55,7 +55,7 @@ Today wanted to do a practical project.
 ---
 ## Day 2: August 14, 2018 - 1hr
 **Today's Progress**:  
-First section of chap 7 Volumes
+First section of chap 7 Volumes  
 Could see where persistant volumes are stored and that they are not deleted automaticaly with the
 container... This means they could be orphaned (like temp files growing)
 
@@ -71,7 +71,7 @@ Little tougher to start today. Tired from busy work day, but first pomodoro went
 ## Day 1: August 13, 2018 - 2hr
 
 **Today's Progress**:  
-Finished Chap 6: Binding ports and IP addresses
+Finished Chap 6: Binding ports and IP addresses  
 Start Chap 7: Volumes
 
 **Thoughts:**  
