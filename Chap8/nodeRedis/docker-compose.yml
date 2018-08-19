@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  web:
+    build: .
+    command: node /myapp/nodewebserver.js
+    depends_on:
+      - redis
+    ports:
+    - 8080:80
+  redis:
+    image: redis:latest
