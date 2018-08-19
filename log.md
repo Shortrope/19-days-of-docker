@@ -11,7 +11,7 @@
 
 # 19 Days Of Docker - Log
 
-## Day 7: August 19, 2018 - 1hr
+## Day 7: August 19, 2018 - 2.5hr
 **Today's Progress**:  
 Chap 8: Orchestrating Containers
 Test the in-built DNS
