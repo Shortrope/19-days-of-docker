@@ -4,13 +4,26 @@
 **Today's Progress**:  
 **Thoughts:**  
 **Link to work:**  
-<br>
+<br><br>
 
 ---
 -->
 
 # 19 Days Of Docker - Log
 
+## Day 7: August 19, 2018 - 1hr
+**Today's Progress**:  
+Start Chap 8: Orchestrating Containers
+Test the in-built DNS
+
+**Thoughts:**  
+The Docker microservices architecture is starting to make some sense
+
+**Link to work:**  
+[Chap 8 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Chap8.OrchestratingContainers.md)
+<br><br>
+
+---
 ## Day 6: August 18, 2018 - 1hr
 **Today's Progress**:  
 Finish Chap 7. Sharing data  
