@@ -13,14 +13,17 @@
 
 ## Day 7: August 19, 2018 - 1hr
 **Today's Progress**:  
-Start Chap 8: Orchestrating Containers
+Chap 8: Orchestrating Containers
 Test the in-built DNS
+Create and run the Node-Redis docker-compose example
 
 **Thoughts:**  
 The Docker microservices architecture is starting to make some sense
+The docker-compose example is very cool!!.  Kept my attention for an hour straight.. very focused!
 
 **Link to work:**  
-[Chap 8 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Chap8.OrchestratingContainers.md)
+1. [Chap 8 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Chap8.OrchestratingContainers.md)
+1. [Node Redis project](https://github.com/Shortrope/19-days-of-docker/tree/master/Chap8/nodeRedis)
 <br><br>
 
 ---
