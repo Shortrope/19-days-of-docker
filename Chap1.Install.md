@@ -40,7 +40,7 @@ service docker status
 docker pull name
 docker pull name:1.23   //get specific version
 docker pull -a name     // get all available versions
-docker pull id/name
+docker pull id|name
 docker pull repo.url/name
 
 docker search name

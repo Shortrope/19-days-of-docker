@@ -57,7 +57,7 @@ Remove all containers not currently running
     docker container prune
 
 ## Building images from Containers
-After make changes to a container run 
+After making changes to a container, check the differences by running 
 
     docker diff id|name
 

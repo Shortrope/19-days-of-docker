@@ -3,7 +3,7 @@
 ## 5. Private Docker infrastructure
 
 ### Docker Registry
-Tcp port 5000
+Tcp port 5000  
 Storage degault path: /var/lib/registry
 
     docker run -d -p 5000:5000 --restart=always --name registry registry:2
@@ -31,6 +31,6 @@ Starting w Docker Compose p.108
 p.110
 
 ### Registry HTTP API 
-p.111
+p.111  
 https://github.com/docker/distribution/blob/master/docs/spec/api.md.
 
