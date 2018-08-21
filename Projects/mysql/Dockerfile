@@ -1,4 +1,2 @@
 FROM mysql
 MAINTAINER Mario Kaack
-
-ENV MYSQL_ROOT_PASSWORD=password123
