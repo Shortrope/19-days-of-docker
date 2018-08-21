@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mysql-svr:
+    image: mysql:latest
+
+  mysql-client:
+    image: mysql:latest

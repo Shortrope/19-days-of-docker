@@ -4,7 +4,7 @@
 A Data Volume is a part of the Docker Host file system that gets mounted inside
 the container The Data Volume is not part of the container file system
 
-    /var/lib/docker/volumes/`<id>`/_data/  
+    /var/lib/docker/volumes/<id>/_data/  
 
 You can create a Volume with a Docker file or with the docker run -v option
 
