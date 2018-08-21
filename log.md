@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 8: August 20, 2018 - 1hr
+**Today's Progress**:  
+Work on MySQL Svr Client: mess with volumes to persist data.
+Start looking at docker-compose.yml to launch with volumes
+
+**Thoughts:**  
+Difficult hour. Difficult to make any progress.
+
+**Link to work:**  
+[MySQL Svr Client](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/MySQL.svrclient)
+<br><br>
+
+---
 ## Day 7: August 19, 2018 - 2.5hr
 **Today's Progress**:  
 Chap 8: Orchestrating Containers
