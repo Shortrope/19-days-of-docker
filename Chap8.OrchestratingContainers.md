@@ -118,8 +118,10 @@ The format of the `docker-compose.yml` file
 |up| creates and starts containers.|
 |version| prints the version of Docker Compose.|
 
-`docker-compose` commands must be run from the directory that contains the docker-compose.yml file
-Each `docker-compose.yml` file is considered a project. The directory name is used by default as the
+`docker-compose` commands:
+-  must be run from the directory that contains the docker-compose.yml file
+- Each `docker-compose.yml` file is considered a project
+- The directory name is used by default as the
 project name.
 
 You `build` the images/services with

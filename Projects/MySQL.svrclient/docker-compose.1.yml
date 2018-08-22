@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+
+  os:
+    image: ubuntu:latest
+    command: --rm -i -t -d
