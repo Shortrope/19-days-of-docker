@@ -11,6 +11,20 @@
 
 # 19 Days Of Docker - Log
 
+## Day 9: August 21, 2018 - 1hr
+**Today's Progress**:  
+Strange day. Tough to make any progress. Trying to launch using docker compose. Not doing what I 
+want it to.
+
+**Thoughts:**  
+Feeling a bit lost trying to put it all together. Felt like virtually no progress today.
+
+**Link to work:**  
+[docker-compose.1.yml](https://github.com/Shortrope/19-days-of-docker/blob/master/Projects/MySQL.svrclient/docker-compose.1.yml)  
+Does not work ^
+<br><br>
+
+---
 ## Day 8: August 20, 2018 - 1hr
 **Today's Progress**:  
 Work on MySQL Svr Client: mess with volumes to persist data.
