@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 10: August 22, 2018 - 1.25hr
+**Today's Progress**:  
+Try to create simple Dockerfile to update the hosts and hostname files with a RUN command
+Failed, did not work
+
+**Thoughts:**  
+Can't seem to get the simplest thing to work. Frustrating
+
+**Link to work:**  
+[Dockerfile](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/apache)
+<br><br>
+
+---
 ## Day 9: August 21, 2018 - 1hr
 **Today's Progress**:  
 Strange day. Tough to make any progress. Trying to launch using docker compose. Not doing what I 
