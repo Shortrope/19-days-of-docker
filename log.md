@@ -11,6 +11,21 @@
 
 # 19 Days Of Docker - Log
 
+## Day 11: August 23, 2018 - 1.5hr
+**Today's Progress**:  
+Started reading the Docker web site docs since I have been stuck.
+Did an example with docker swarm (new) and docker-compose
+
+**Thoughts:**  
+The example done today was very cool spinning up 5 containers. Some excitement back, but it 
+introduced new commands I have not seen yet.  Will have to reveiw again.
+
+**Link to work:**  
+1. [python container example](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/get-started-p2-python)
+1. [docker swarm example](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/get-started-p3-compose1)
+<br><br>
+
+---
 ## Day 10: August 22, 2018 - 1.25hr
 **Today's Progress**:  
 Try to create simple Dockerfile to update the hosts and hostname files with a RUN command
