@@ -11,6 +11,27 @@
 
 # 19 Days Of Docker - Log
 
+## Day 13: August 25, 2018 - 2hr
+**Today's Progress**:  
+Docker Vids: Mainly a review but picking up some points not taught in the book.
+- Image layers
+- Image `save` and `load` (export/import)  
+- Pid 1 process running in a container
+Started a command reference file
+
+**Thoughts:**  
+
+**Link to work:**  
+[Command Reference](https://github.com/Shortrope/19-days-of-docker/blob/master/CommandReference.md)
+<br><br>
+
+---
+## Day 12: August 24, 2018 - 0hr
+Skipped.. went to Borrego Springs. 
+Spent maybe 20mins reading the Docker website
+<br><br>
+
+---
 ## Day 11: August 23, 2018 - 1.5hr
 **Today's Progress**:  
 Started reading the Docker web site docs since I have been stuck.
