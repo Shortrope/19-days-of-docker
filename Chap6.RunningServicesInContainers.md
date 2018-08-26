@@ -10,12 +10,16 @@
 
 Three Networks exist by default
 - bridge
+    - docker0 (ifconfig)
 - host
 - none
 
-The 'bridge' network is an internal NAT'ed network - 172.17.0.x
+The 'bridge' network (docker0) is an internal NAT'ed network - 172.17.0.x
 The 'host' network shares the host IP address and ports  
-The 'none' network only has the loopback interface - lo
+The 'none' network only has the loopback interface - lo  
+You can specify the network of the bridge in `/etc/defaults/docker
+
+    DOCKER_OPTS=--bip=192.168.11.1/24
 
 Other networks available
 
@@ -23,7 +27,7 @@ Other networks available
 - macvlan
 - ipvlan
 
-A container attaches to 'bridge' by default
+A container attaches to 'bridge' (docker0) by default
 Use '--net' to attach a container to a network 
 
     docker run --net=host -it ubuntu /bin/bash
@@ -37,19 +41,25 @@ Inspect the IP address of a container
     docker inspect id|name
     docker inspect --format='{{.NetworkSettings.IPAddress}}' id|name
 
+Each container gets an exact copy of the hosts' /etc/resolv.conf and hostsfile  
+    `/var/lib/docker/containers/<id>/resolve.conf`  
+    `/var/lib/docker/containers/<id>/hosts`
+
 ## CaaS (Container as a service) Exposing and connecting to container services
 
 ### Publishing a containers port
 Use the `-p` option
 
-    -p <hostPort>:<containerPort>
-    -p <containerPort>
-    -p <ip>:<hostPort>:<containerPort>
-    -p <ip>::<containerPort>
+    -p <hostPort>:<containerPort>[/tcp|udp]
+    -p <containerPort>[/tcp|udp]
+    -p <ip>:<hostPort>:<containerPort>[/tcp|udp]
+    -p <ip>::<containerPort>[/tcp|udp]
 
 Example:
 
-    docker run -d -p 80:80 apache2
+    docker run -d -p 80:80 --name web1 apache2
+    docker port web1
+
 
 __This did not work!! Could not connect to the web service!__  
 Resolved: the container was running in an antlet. I was trying to connect from
