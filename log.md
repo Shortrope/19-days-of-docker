@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 14: August 26, 2018 - 2.5hr
+**Today's Progress**:  
+Finished last two sections of the video course: Volumes, Networking, TShooting
+
+**Thoughts:**  
+Better understanding of Dockerfiles and networking. Definitly worth going thru.
+
+**Link to work:**  
+[Update chap 6 notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Chap6.RunningServicesInContainers.md)
+<br><br>
+
+---
 ## Day 13: August 25, 2018 - 3.5hr
 **Today's Progress**:  
 Docker Vids: Mainly a review but picking up some points not taught in the book.
