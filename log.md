@@ -11,12 +11,14 @@
 
 # 19 Days Of Docker - Log
 
-## Day 13: August 25, 2018 - 2hr
+## Day 13: August 25, 2018 - 3.5hr
 **Today's Progress**:  
 Docker Vids: Mainly a review but picking up some points not taught in the book.
 - Image layers
 - Image `save` and `load` (export/import)  
 - Pid 1 process running in a container
+- Dockerfile commands: RUN, CMD, ENTRYPOINT, ENV
+
 Started a command reference file
 
 **Thoughts:**  
@@ -27,7 +29,7 @@ Started a command reference file
 
 ---
 ## Day 12: August 24, 2018 - 0hr
-Skipped.. went to Borrego Springs. 
+Skipped.. went to Borrego Springs.  
 Spent maybe 20mins reading the Docker website
 <br><br>
 
