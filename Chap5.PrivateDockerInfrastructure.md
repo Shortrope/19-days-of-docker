@@ -4,7 +4,7 @@
 
 ### Docker Registry
 Tcp port 5000  
-Storage degault path: /var/lib/registry
+Storage dedault path: /var/lib/registry
 
     docker run -d -p 5000:5000 --restart=always --name registry registry:2
 
@@ -26,6 +26,11 @@ Create with Storage
 
 With SSL certificates: p.105
 Starting w Docker Compose p.108
+
+Starting insecure:
+In /etc/default/docker
+
+    DOCKER_OPTS="--insecure-registry domain.name:5000"
 
 ### Webhook notifications 
 p.110

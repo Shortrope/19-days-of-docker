@@ -3,6 +3,8 @@
 - [docker](#docker)
 - [docker image](#docker-image)
 - [docker build](#docker-build)
+- [docker tag](#docker-tag)
+- [docker push](#docker-push)
 - [docker run](#docker-run)
 - [docker container](#docker-container)
 - [docker commit](#docker-commit)
@@ -44,6 +46,16 @@
 [toc](#Table-of-contents) 
  
 ## docker build
+
+[toc](#Table-of-contents)
+
+## docker tag
+
+    docker tag id|name shortrope/heybuddy:0.1
+
+## docker push
+
+    docker push shortrope/heybuddy:0.1
 
 [toc](#Table-of-contents)
 

@@ -30,6 +30,14 @@ ADD src dst
 ENV key value
 - Set environment variable
 
+Syntax
+
+    ENV key1=val1 var2=val2
+Example
+
+    ENV var1=ping var2=8.8.8.8.
+    CMD $var1 $var2
+
 ARG: <variable[=<default value>]
 - Build argument <variable[=<default value>] (p.59)
 
@@ -53,23 +61,33 @@ LABEL version="2.0"
 - label schema to avoid conflicts.. see p.63
 
 RUN cmd arg1 arg2 ...
-  - RUN commands run at build time
+  - RUN commands **run at build time**
+    - CMD commands run at run time
   - uses /bin/sh -c
   - Best practice to RUN all commands with one RUN
+      - Each RUN command creates a new layer
   - Can use json array type
     - RUN ["bash", "-c", "rm", "-rf", "/tmp/asdf"]
+    - the container does not require a shell to run the command
   - Install apache2 package
     - RUN apt update && \
           apt install -y apapch2 && \
           apt-get clean
 
 CMD cmd
-  - CMD commands are run when the container is launched
+  - CMD commands are **run when the container is launched**
+    - RUN commands run at build time
   - Only the last CMD will be run
-  - executed using /bin/sh -c
+  - executed using `/bin/sh -c <command>`
+  - generally used to launch the app/service
+  - can be owerridden at run-time with `docker run <command>`
+  - If an ENTRYPOINT, then CMD is arguments to the ENTRYPOINT
 
 ENTRYPOINT cmd
-  - application to run, once the application terminates the container terminiates
+  - default application to run in the container
+  - cannot be owerridden at run-time with `docker run <command>`
+  - the commands at the end of `docker run` are used as arguments to the ENTRYPOINT
+  - once the application terminates the container terminiates
   - see p. 68
 
 HEALTHCHECK [options] CMD <command>
