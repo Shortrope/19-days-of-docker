@@ -11,6 +11,23 @@
 
 # 19 Days Of Docker - Log
 
+## Day 15: August 27, 2018 - hr
+**Today's Progress**:  
+Created an Apache image with a Dockerfile. 
+Used RUN, COPY, VOLUME, EXPOSE, ENTRYPOINT, CMD
+Copied html and css files into the container
+Edited the html and css in the volume while the container was running
+Exported and imported the container to another machine.
+
+**Thoughts:**  
+Now starting to get more practical.
+Very interested in swarm
+
+**Link to work:**  
+[Apache project](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/apache)
+<br><br>
+
+---
 ## Day 14: August 26, 2018 - 2.5hr
 **Today's Progress**:  
 Finished last two sections of the video course: Volumes, Networking, TShooting
