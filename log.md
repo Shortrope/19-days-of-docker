@@ -11,16 +11,29 @@
 
 # 19 Days Of Docker - Log
 
-## Day 15: August 27, 2018 - hr
+## Day 16: August 28, 2018 - 1hr
 **Today's Progress**:  
-Created an Apache image with a Dockerfile. 
-Used RUN, COPY, VOLUME, EXPOSE, ENTRYPOINT, CMD
-Copied html and css files into the container
-Edited the html and css in the volume while the container was running
-Exported and imported the container to another machine.
+Signed up on Pluralsight to learn about Swarm and maybe Kubernetes
+Start a couple of courses.. settled on Getting Started w Docker Swarm Mode
 
 **Thoughts:**  
-Now starting to get more practical.
+Swarm looks awesome!!
+
+**Link to work:**  
+[Managing Docker Swarm .. But then I started a different course](https://github.com/Shortrope/19-days-of-docker/tree/master/Managing%20Docker%20Swarm)
+<br><br>
+
+---
+## Day 15: August 27, 2018 - hr
+**Today's Progress**:  
+Created an Apache image with a Dockerfile.  
+Used RUN, COPY, VOLUME, EXPOSE, ENTRYPOINT, CMD  
+Copied html and css files into the container  
+Edited the html and css in the volume while the container was running  
+Exported and imported the container to another machine.  
+
+**Thoughts:**  
+Now starting to get more practical.  
 Very interested in swarm
 
 **Link to work:**  
