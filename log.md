@@ -11,6 +11,17 @@
 
 # 19 Days Of Docker - Log
 
+## Day 17: August 29, 2018 - 1.5hr
+**Today's Progress**:  
+Reviewing vids.  trouble w docker-compose.. errors. needed to update to latest version.
+Worked with ARG in Dockerfile
+**Thoughts:**  
+Difficult trying anything new. I was into it today but still feels like super slow progress.
+**Link to work:**  
+[Project/args](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/args)
+<br><br>
+
+---
 ## Day 16: August 28, 2018 - 1hr
 **Today's Progress**:  
 Signed up on Pluralsight to learn about Swarm and maybe Kubernetes
