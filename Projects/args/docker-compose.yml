@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+
+  filemaker:
+    build:
+      context: .
+      args:
+        MYNAME: Sarah
+    image: hardname:dc1
