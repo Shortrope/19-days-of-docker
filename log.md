@@ -11,12 +11,31 @@
 
 # 19 Days Of Docker - Log
 
+## Day 18: August 30, 2018 - 2.25hr
+**Today's Progress**:  
+Created an apache2, httpd and mysql containers individually.  Had tough time connecting to the 
+mysql container (changed from v8.0 to 5.7 then worked).  
+Created mysql and a Wordpress container manually and got Wordpress working  
+Created a docker-compose.yml file to spin up the Wordpress/mysql services.
+
+**Thoughts:**  
+This was my real goal to spin up a wordpress instance with docker.  
+But I am now interested in swarm and will continue on.
+
+**Link to work:**  
+1. [apache2 and httpd](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/apache)
+1. [Wordpress](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/wordpress)
+<br><br>
+
+---
 ## Day 17: August 29, 2018 - 1.5hr
 **Today's Progress**:  
-Reviewing vids.  trouble w docker-compose.. errors. needed to update to latest version.
-Worked with ARG in Dockerfile
+Reviewing vids.  trouble w docker-compose.. errors. needed to update to latest version.  
+Worked with ARG in Dockerfile  
+
 **Thoughts:**  
-Difficult trying anything new. I was into it today but still feels like super slow progress.
+Difficult trying anything new. I was into it today but still feels like super slow progress.  
+
 **Link to work:**  
 [Project/args](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/args)
 <br><br>
@@ -35,7 +54,7 @@ Swarm looks awesome!!
 <br><br>
 
 ---
-## Day 15: August 27, 2018 - hr
+## Day 15: August 27, 2018 - 1hr
 **Today's Progress**:  
 Created an Apache image with a Dockerfile.  
 Used RUN, COPY, VOLUME, EXPOSE, ENTRYPOINT, CMD  
