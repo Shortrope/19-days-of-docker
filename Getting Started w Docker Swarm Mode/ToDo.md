@@ -6,3 +6,5 @@ Be able to spin up various applications quickly
 
 Be able to spin up multiple applications that work together quickly
   - Wordpress
+
+Spin up multiple Wordpress services with Swarm
