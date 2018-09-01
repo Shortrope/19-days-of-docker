@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 19: August 31, 2018 - 1.5h
+**Today's Progress**:  
+Finish Chap 2 'Getting Started w Docker Swarm Mode'  
+Spin up an Nginx service.. then scale the instances up and down  
+
+**Thoughts:**  
+Super cool stuff!!!  
+
+**Link to work:**  
+[Notes](https://github.com/Shortrope/19-days-of-docker/tree/master/Getting%20Started%20w%20Docker%20Swarm%20Mode)
+<br><br>
+
+---
 ## Day 18: August 30, 2018 - 2.25hr
 **Today's Progress**:  
 Created an apache2, httpd and mysql containers individually.  Had tough time connecting to the 
