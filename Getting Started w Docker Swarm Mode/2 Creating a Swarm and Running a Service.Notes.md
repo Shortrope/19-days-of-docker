@@ -1,4 +1,4 @@
-# Docker Swarm Mode
+# Creating a Swarm and Running a Service
 
 ## Initialize a node
 
