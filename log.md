@@ -11,9 +11,23 @@
 
 # 19 Days Of Docker - Log
 
-## Day 19: August 31, 2018 - 1.5h
+## Day 20: September 1, 2018 -2hr
 **Today's Progress**:  
-Finish Chap 2 'Getting Started w Docker Swarm Mode'  
+Finish Chap 4 'Adding Nodes'  
+Add nodes. Scale up a service across nodes
+Drain nodes
+
+**Thoughts:**  
+Still super cool!  Adding/Scalling up a service across nodes is super easy.  
+
+**Link to work:**  
+[Adding Nodes notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Docker%20Swarm%20Mode/3%20Adding%20Nodes.Notes.md)
+<br><br>
+
+---
+## Day 19: August 31, 2018 - 1.5hr
+**Today's Progress**:  
+Finish Chap 3 'Getting Started w Docker Swarm Mode'  
 Spin up an Nginx service.. then scale the instances up and down  
 
 **Thoughts:**  
