@@ -11,6 +11,23 @@
 
 # 19 Days Of Docker - Log
 
+## Day 21: August 2, 2018 - 2hr
+**Today's Progress**:  
+Finish Chap 5  Ingress Routing and publishing ports  
+Finish Chap 6  Reconciling Desired State  
+Finish Chap 7  Rolling updates  
+
+**Thoughts:**  
+Internal routing and load balancing.. awesome!  
+Rolling update are cool.. but the chap was too long
+
+**Link to work:**  
+- [Chap 5 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Docker%20Swarm%20Mode/4%20Ingress%20Routing%20and%20Publishig%20Ports.md)  
+- [Chap 6 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Docker%20Swarm%20Mode/6%20Reconciling%20Desired%20State.md)  
+- [Chap 7 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Docker%20Swarm%20Mode/7%20Rolling%20Updates.md)
+<br><br>
+
+---
 ## Day 20: September 1, 2018 -2hr
 **Today's Progress**:  
 Finish Chap 4 'Adding Nodes'  
