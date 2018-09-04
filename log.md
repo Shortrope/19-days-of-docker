@@ -11,7 +11,30 @@
 
 # 19 Days Of Docker - Log
 
-## Day 21: August 2, 2018 - 2hr
+## Day 22: August 3, 2018 - 3.5hr
+**Today's Progress**:  
+Mess with volumes on mysql and wordpress   
+Backup, destroy and restore a Wordpress setup  
+- backed up the volumes w rsync to a local dir on the host
+- Dstroy the containers and volumes (docker-compose down)
+- `docker-compose up` (for a fresh install)
+- `docker-compose stop` 
+- rsync'ed the files back to the new volumes
+- `docker-compose start` 
+- Restored! It all worked.
+
+**Thoughts:**  
+Need to come up with better method for backup/restore.
+Next try this with docker swarm  
+
+
+**Link to work:**  
+[Volume with MySQL](https://github.com/Shortrope/19-days-of-docker/blob/master/Projects/mysql/Dockerfile)  
+[Volumes on WP and MySQL for backup/restore](https://github.com/Shortrope/19-days-of-docker/blob/master/Projects/wordpress/wpv2/docker-compose.yml)
+<br><br>
+
+---
+## Day 21: August 2, 2018 - 3hr
 **Today's Progress**:  
 Finish Chap 5  Ingress Routing and publishing ports  
 Finish Chap 6  Reconciling Desired State  
