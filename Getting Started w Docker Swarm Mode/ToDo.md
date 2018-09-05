@@ -12,4 +12,7 @@ Be able to spin up multiple applications that work together quickly
 - Load Balancing with HA Proxy or Nginx
 - Remove an image from all nodes
 - Update an image.. use delay and parallizm
+- Backup info about services and networks
+- Remove every thing - services, containers, networks
+
 
