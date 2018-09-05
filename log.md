@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 24: August 5, 2018 - 1hr
+**Today's Progress**:  
+Finish Chap 9: Stacks  
+Deploy services with stacks.  Similar to docker-compose  
+
+**Thoughts:**  
+This is what I was looking for to deploy my Wordprss services
+
+**Link to work:**  
+[Chap 9 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Docker%20Swarm%20Mode/9%20Deploying%20w%20Stacks.md)
+<br><br>
+
+---
 ## Day 23: August 4, 2018 - 1hr
 **Today's Progress**:  
 Finish Chap 8: Networking
