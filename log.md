@@ -11,6 +11,17 @@
 
 # 19 Days Of Docker - Log
 
+## Day 23: August 4, 2018 - 1hr
+**Today's Progress**:  
+Finish Chap 8: Networking
+
+**Thoughts:**  
+
+**Link to work:**  
+[Chap 8 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Docker%20Swarm%20Mode/8%20Networking.md)
+<br><br>
+
+---
 ## Day 22: August 3, 2018 - 3.5hr
 **Today's Progress**:  
 Mess with volumes on mysql and wordpress   
