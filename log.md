@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 25: August 6, 2018 - 1hr
+**Today's Progress**:  
+Chap 10: Getting started w docker swarm mode: Health checks
+
+**Thoughts:**  
+Will neeed to reveiw this
+
+**Link to work:**  
+[Chap 10 Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Docker%20Swarm%20Mode/10%20Health%20Checking.md)
+<br><br>
+
+---
 ## Day 24: August 5, 2018 - 1hr
 **Today's Progress**:  
 Finish Chap 9: Stacks  
