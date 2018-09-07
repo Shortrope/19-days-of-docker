@@ -14,5 +14,6 @@ Be able to spin up multiple applications that work together quickly
 - Update an image.. use delay and parallizm
 - Backup info about services and networks
 - Remove every thing - services, containers, networks
+- restart a broken service 10-5
 
 
