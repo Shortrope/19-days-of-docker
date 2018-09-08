@@ -11,6 +11,22 @@
 
 # 19 Days Of Docker - Log
 
+## Day 26: August 7, 2018 - 1.5hr
+**Today's Progress**:  
+Finish Chap 11: Secrets  
+Finish Pluralsight course: Getting started w Docker Swarm Mode  
+Deployed Wordpress w 8 containers of each service (mysql and wp) across 6 nodes  
+Problem: sharing the same datastore. Each mysql container seems to have its own storage. So, an  
+update made while connected to a specific container is not shared to others.  
+
+**Thoughts:**  
+Another road block, but still excited about Docker
+
+**Link to work:**  
+[Chap 11: Secrets](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Docker%20Swarm%20Mode/11%20Protecting%20Secrets.md)
+<br><br>
+
+---
 ## Day 25: August 6, 2018 - 1hr
 **Today's Progress**:  
 Chap 10: Getting started w docker swarm mode: Health checks
