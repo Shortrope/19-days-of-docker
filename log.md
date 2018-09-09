@@ -11,6 +11,22 @@
 
 # 19 Days Of Docker - Log
 
+## Day 27: August 8, 2018 - 4hr
+**Today's Progress**:  
+Try to figure out a workflow to develope and deploy changes to a Wordpress Swarm  
+Do the developement on a dev container  
+Backup the volumes - db and wp files  
+Build new image w the backups  
+Update production swarm with the new images  
+
+**Thoughts:**  
+Almost there.  Not sure if this is how its done in the real world but I think its ok.
+
+**Link to work:**  
+[docker-wp-dev](https://github.com/Shortrope/docker-wp-dev)
+<br><br>
+
+---
 ## Day 26: August 7, 2018 - 1.5hr
 **Today's Progress**:  
 Finish Chap 11: Secrets  
