@@ -1,6 +1,6 @@
 
 <!-- 
-## Day N: August N, 2018 - Nhr
+## Day N: September N, 2018 - Nhr
 **Today's Progress**:  
 **Thoughts:**  
 **Link to work:**  
@@ -11,7 +11,20 @@
 
 # 19 Days Of Docker - Log
 
-## Day 27: August 8, 2018 - 4hr
+## Day 28: September 9, 2018 - 2.5hr
+**Today's Progress**:  
+When COPY /var/www/html directory into the container via Build, the new image has changed the  
+owner:group from `www-data:www-data` to `root:root`  
+Tried a `RUN` instructions to `chown -R` but still ends up 'root:root`  
+
+**Thoughts:**  
+Painful day  
+
+**Link to work:**  
+<br><br>
+
+---
+## Day 27: September 8, 2018 - 4hr
 **Today's Progress**:  
 Try to figure out a workflow to develope and deploy changes to a Wordpress Swarm  
 Do the developement on a dev container  
@@ -27,7 +40,7 @@ Almost there.  Not sure if this is how its done in the real world but I think it
 <br><br>
 
 ---
-## Day 26: August 7, 2018 - 1.5hr
+## Day 26: September 7, 2018 - 1.5hr
 **Today's Progress**:  
 Finish Chap 11: Secrets  
 Finish Pluralsight course: Getting started w Docker Swarm Mode  
@@ -43,7 +56,7 @@ Another road block, but still excited about Docker
 <br><br>
 
 ---
-## Day 25: August 6, 2018 - 1hr
+## Day 25: September 6, 2018 - 1hr
 **Today's Progress**:  
 Chap 10: Getting started w docker swarm mode: Health checks
 
@@ -55,7 +68,7 @@ Will neeed to reveiw this
 <br><br>
 
 ---
-## Day 24: August 5, 2018 - 1hr
+## Day 24: September 5, 2018 - 1hr
 **Today's Progress**:  
 Finish Chap 9: Stacks  
 Deploy services with stacks.  Similar to docker-compose  
@@ -68,7 +81,7 @@ This is what I was looking for to deploy my Wordprss services
 <br><br>
 
 ---
-## Day 23: August 4, 2018 - 1hr
+## Day 23: September 4, 2018 - 1hr
 **Today's Progress**:  
 Finish Chap 8: Networking
 
@@ -79,7 +92,7 @@ Finish Chap 8: Networking
 <br><br>
 
 ---
-## Day 22: August 3, 2018 - 3.5hr
+## Day 22: September 3, 2018 - 3.5hr
 **Today's Progress**:  
 Mess with volumes on mysql and wordpress   
 Backup, destroy and restore a Wordpress setup  
@@ -102,7 +115,7 @@ Next try this with docker swarm
 <br><br>
 
 ---
-## Day 21: August 2, 2018 - 3hr
+## Day 21: September 2, 2018 - 3hr
 **Today's Progress**:  
 Finish Chap 5  Ingress Routing and publishing ports  
 Finish Chap 6  Reconciling Desired State  
