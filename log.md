@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 29: September 10, 2018 - 1.5hr
+**Today's Progress**:  
+Watch Chaps 1,2,3 and 4
+
+**Thoughts:**  
+Looks cool!
+
+**Link to work:**  
+[Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Kubernetes/4%20Kubernetes%20Architecture.md)
+<br><br>
+
+---
 ## Day 28: September 9, 2018 - 2.5hr
 **Today's Progress**:  
 When COPY /var/www/html directory into the container via Build, the new image has changed the  
