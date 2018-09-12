@@ -11,8 +11,25 @@
 
 # 19 Days Of Docker - Log
 
+---
+## Day 30: September 11, 2018 - 1.25hr
+**Today's Progress**:  
+Getting Started w Kubernetes  
+Chap 5: Installing Kubernetes...
+Chap 6: Workin with Pods
+
+**Thoughts:**  
+This course is very high level
+
+**Link to work:**  
+[Chap 5 Notes: Installing Kubernetes](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Kubernetes/5%20Installing%20Kubernetes.md)  
+[Chap 6 Notes: Working w Pods](https://github.com/Shortrope/19-days-of-docker/blob/master/Getting%20Started%20w%20Kubernetes/6%20Working%20w%20Pods.md)
+<br><br>
+
+---
 ## Day 29: September 10, 2018 - 1.5hr
 **Today's Progress**:  
+Getting Started w Kubernetes  
 Watch Chaps 1,2,3 and 4
 
 **Thoughts:**  
