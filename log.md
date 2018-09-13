@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 31: September 12, 2018 - 1hr
+**Today's Progress**:  
+Finish Getting started w Kubernetes course  
+Chap 7 and 8  
+Notes very light.. mostly just listened.  
+
+**Thoughts:**  
+This course was very high level. Will need another resourse to did in deeper  
+
+**Link to work:**  
+[Chap 7 and 8 notes](https://github.com/Shortrope/19-days-of-docker/tree/master/Getting%20Started%20w%20Kubernetes)
+<br><br>
+
 ---
 ## Day 30: September 11, 2018 - 1.25hr
 **Today's Progress**:  
