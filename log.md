@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 32: September 13, 2018 - 1.5hr
+**Today's Progress**:  
+Started reading the Kubernetes docs at kubernetes.io
+
+**Thoughts:**  
+Feeling lost. Getting lost in the documentation links.  
+
+**Link to work:**  
+[Notes](https://github.com/Shortrope/19-days-of-docker/tree/master/Kubernetes%20Documentation)
+<br><br>
+
+---
 ## Day 31: September 12, 2018 - 1hr
 **Today's Progress**:  
 Finish Getting started w Kubernetes course  
