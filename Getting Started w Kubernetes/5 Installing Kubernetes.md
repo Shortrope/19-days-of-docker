@@ -11,6 +11,7 @@
 - CNI:  CNI Networking
 
 #### Node 1
+Install packages:
 
     apt-get update && apt-get install -y apt-transport-https
     curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
@@ -20,3 +21,23 @@
     apt-get update
     
     https://git.io/weave-kube-1.6
+
+    apt-get install -y docker.io kubeadm kubectl kubelet kubernetes-cni
+Run the last command again to see the versions
+
+Set hostname
+
+    hostnamectl set-hostname kubem1
+Edit `hosts` file
+
+    192.168.1.x   kubem1
+Disable swap
+
+    swapoff -a
+And remove swap from /etc/fstab
+
+Initialize:
+
+    kueadm init
+
+

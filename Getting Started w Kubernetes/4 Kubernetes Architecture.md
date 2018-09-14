@@ -74,6 +74,7 @@ Lifecycle:
 - pending -> Running -> succeded/failed
 
 ## Services
+Stable networking  
 Load balancer  
 provides same IP  
 provides dns  

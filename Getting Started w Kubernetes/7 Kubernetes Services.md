@@ -5,7 +5,7 @@ How do we access our app
 Services:
 - REST objects in the K8s API
 - Abstraction
-- Provides IP, DNS, Ports to client
+- Provides Reliable Network Endpoint - IP, DNS, Ports to client
 
 Also get an `Endpoint` service
 - has the list of nodes and pods
@@ -25,3 +25,5 @@ _Don't do this way... use .yml file... declaritive way_
     kubectl delete  svc hello-rc 
 
 shows the cluster IP and port
+
+## Createing a Service the Declaritive way
