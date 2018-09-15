@@ -11,6 +11,21 @@
 
 # 19 Days Of Docker - Log
 
+## Day 33: September 14, 2018 - 2hr
+**Today's Progress**:  
+Installing kubernetes... still not done.  
+Kubernetes documentation - every requirement has its own requirements
+Purchased a book and video from Packt
+Trying Minikube on Windows
+
+**Thoughts:**  
+Trying to install via the Kubernetes docs, again, is going down rabbit holes. One requirement leads to other requirements...
+
+**Link to work:**  
+[Installation Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Kubernetes%20Documentation/1%20installation.md)
+<br><br>
+
+---
 ## Day 32: September 13, 2018 - 1.5hr
 **Today's Progress**:  
 Started reading the Kubernetes docs at kubernetes.io
