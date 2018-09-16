@@ -11,6 +11,24 @@
 
 # 19 Days Of Docker - Log
 
+## Day 34: September 15, 2018 - 3.5hr
+**Today's Progress**:  
+Packt course: Develop and Operate Microservices on Kubernetes  
+Finish Chap 1 and 2  
+Pods, ReplicaSets, Ingress, Deployments  
+Scale, rollout, rollout undo  
+
+**Thoughts:**  
+Much easier learning the concepts with a course.  
+Super cool again.  
+Back in the game.. feel like I am making progress  
+
+**Link to work:**  
+1. [Chap 1, 2 - Notes](https://github.com/Shortrope/19-days-of-docker/tree/master/Packt%20DevOp%20Microservices%20w%20Kubernetes)
+1. [yaml files foe Pods, ReplicaSets, Ingress and Deployments](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/K8s-test-pod)
+<br><br>
+
+---
 ## Day 33: September 14, 2018 - 2hr
 **Today's Progress**:  
 Installing kubernetes... still not done.  
