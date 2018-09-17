@@ -11,6 +11,21 @@
 
 # 19 Days Of Docker - Log
 
+## Day 35: September 16, 2018 - 3h
+**Today's Progress**:  
+Chap 3 DevOp Microservice on k8s
+Tried to reset Minikube w 'delete' command, now can't initialize a new setup.
+Started Ultimate K8s Bootcamp - Chap 2.6 - 3.4
+Finished Manual Install of a K8s Cluster w WeaveNet!
+
+**Thoughts:**  
+Cooool!  Manual install done.. not to bad.. WooHoo!!
+Feel'n high again!!!  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 34: September 15, 2018 - 3.5hr
 **Today's Progress**:  
 Packt course: Develop and Operate Microservices on Kubernetes  
