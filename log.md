@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 36: September 17, 2018 - 1hr
+**Today's Progress**:  
+Chap 3-5 Stateful Services  
+Persistant volumes  
+
+**Thoughts:**  
+Difficult to get the time in today but did it  
+
+**Link to work:**  
+[Deploying Stateful services](https://github.com/Shortrope/19-days-of-docker/blob/master/Packt%20DevOp%20Microservices%20w%20Kubernetes/3.%20Deploying%20Stateful%20Services.md)
+<br><br>
+
+---
 ## Day 35: September 16, 2018 - 3h
 **Today's Progress**:  
 Chap 3 DevOp Microservice on k8s
