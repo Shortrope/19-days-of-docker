@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 37: September 18, 2018 - 1hr
+**Today's Progress**:  
+Finish Chap 3 Managing Configuration
+
+**Thoughts:**  
+More of a skim  
+Need to start reviewing and implementing more  
+
+**Link to work:**  
+[Managing Config Data Notes](https://github.com/Shortrope/19-days-of-docker/blob/master/Packt%20DevOp%20Microservices%20w%20Kubernetes/4.%20Managing%20Configuration%20Data.md)
+<br><br>
+
+---
 ## Day 36: September 17, 2018 - 1hr
 **Today's Progress**:  
 Chap 3-5 Stateful Services  
