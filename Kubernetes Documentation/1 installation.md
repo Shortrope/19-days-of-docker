@@ -11,6 +11,9 @@
     - Comment the 'swap' line in `/etc/fstab`
 1. MAC address and product_uuid are unique on each node.  
     <pre>cat /sys/class/dmi/id/product_uuid</pre>
+1. Set hostname
+    <pre>hostnamectl set-hostname KubeMaster</pre>
+1. Add hostname to 'hosts' file
 1. Install Docker 17.03  
     <pre>apt-get update
     apt-get install -y apt-transport-https ca-certificates curl software-properties-common
@@ -18,14 +21,14 @@
     add-apt-repository "deb https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable"
     apt-get update && apt-get install -y docker-ce=$(apt-cache madison docker-ce | grep 17.03 | head -1 | awk '{print $3}')</pre>
 1. Install kubeadm, kubelet and kubectl  
-    <pre>apt-get update && apt-get install -y apt-transport-https curl
-    curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
-    cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
-    deb http://apt.kubernetes.io/ kubernetes-xenial main
-    EOF
-    apt-get update
-    apt-get install -y kubelet kubeadm kubectl
-    apt-mark hold kubelet kubeadm kubectl</pre>
+<pre>apt-get update && apt-get install -y apt-transport-https curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
+deb http://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+apt-get update
+apt-get install -y kubelet kubeadm kubectl
+apt-mark hold kubelet kubeadm kubectl</pre>
 
 
     Checks
@@ -43,7 +46,7 @@
 ## Initializing the Master
 
     hostname -i
-    kubeadm init --apiserver-advertise-address 192.168.1.20 --pod-network-cidr=172.17.0.0/16
+    kubeadm init --apiserver-advertise-address=192.168.1.20 --pod-network-cidr=172.17.0.0/16
 
 The end of the initialization has some instructions
 
