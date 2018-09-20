@@ -69,8 +69,8 @@ The end of the initialization has some instructions
     4d3768ae
 
 
-Run the `kubeadm join ..` command on the other nodes to join the cluster  
 Enable `kubectl` by creating the `~/.kube` directory and cp'ing the config file w the instructions given.  
+Run the `kubeadm join ..` command on the other nodes to join the cluster  
 Check `kubectl` works and the nodes in the cluster with:  
 
     kubectl get nodes
@@ -89,8 +89,6 @@ Other versions of `kubectl get ...`
 Watch for changes in the command (update every 1 second)
 
     watch -n 1 kubectl get nodes,pods
-
-
 
 
 ## Set up CNI - Container Network Interface (Weave Net)
