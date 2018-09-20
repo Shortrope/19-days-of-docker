@@ -11,6 +11,16 @@
 
 # 19 Days Of Docker - Log
 
+## Day 38: September 19, 2018 - 1.25hr
+**Today's Progress**:  
+Go thru the process of installing a K8s Cluster to make sure my notes are correct
+
+**Thoughts:**  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 37: September 18, 2018 - 1hr
 **Today's Progress**:  
 Finish Chap 3 Managing Configuration

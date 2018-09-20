@@ -3,16 +3,16 @@
 ## sequence
 
 1. Install Docker
-2. get images
-3. ***build images
-publishing images
+1. get images
+1. ***build images
+1. publishing images
 private docker infrastructure
-4. ***run services in a container: networking
-5. ***sharing data
-6. **Orchestrating containers
-7. **Testing
-8. **Debugging
-9. **Securing
+1. ***run services in a container: networking
+1. ***sharing data
+1. **Orchestrating containers
+1. **Testing
+1. **Debugging
+1. **Securing
 
 ## 20% for 80% results
 1. Install and get images
