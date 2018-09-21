@@ -105,8 +105,13 @@ Check with
     kubectl cluster-info dump > cluster-info-dump
     kubectl get cs
     kubectl get events
+    kubectl get pods -n kube-system
 
 cs - componentStatus
 
 
 [Choose a Pod Network add-on](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#initializing-your-master)
+
+## Kubernetes Dashboard
+After the Pod networks is installed, we can install the K8s _Dashboard_ service.
+

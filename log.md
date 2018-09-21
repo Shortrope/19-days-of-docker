@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 39: September 20, 2018 - 1hr
+**Today's Progress**:  
+ultimate k8s bootcamp
+Could not get dashboard or visualizer to work.  
+
+**Thoughts:**  
+Will try to do things all at the cli. 
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 38: September 19, 2018 - 1.25hr
 **Today's Progress**:  
 Go thru the process of installing a K8s Cluster to make sure my notes are correct
