@@ -11,6 +11,38 @@
 
 # 19 Days Of Docker - Log
 
+## Day 42: September 23, 2018 - 1hr
+**Today's Progress**:  
+Deploy vote pod.  
+Check status and tshoot commands  
+
+**Thoughts:**  
+**Link to work:**  
+
+<br><br>
+
+---
+## Day 41: September 22, 2018 - 1.5hr
+**Today's Progress**:  
+Pod Spec documentation
+Start up k8s ulimate bootcamp again
+
+**Thoughts:**  
+**Link to work:**  
+<br><br>
+
+---
+## Day 40: September 21, 2018 - 0hr
+**Today's Progress**:  
+Started creating an ansible playbook to create a K8s node  
+Did not do any real K8s study  
+
+**Thoughts:**  
+**Link to work:**  
+<br><br>
+
+---
+
 ## Day 39: September 20, 2018 - 1hr
 **Today's Progress**:  
 ultimate k8s bootcamp
