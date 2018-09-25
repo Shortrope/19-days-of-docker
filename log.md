@@ -11,6 +11,17 @@
 
 # 19 Days Of Docker - Log
 
+## Day 43: September 24, 2018 - 1.5hr
+**Today's Progress**:  
+K8s Ult BootCmp: finish chap 4: Persistant volumes, multi container Pods  
+Review Yaml syntax tutorial  
+
+**Thoughts:**  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 42: September 23, 2018 - 1hr
 **Today's Progress**:  
 Deploy vote pod.  
