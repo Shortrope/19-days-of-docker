@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 44: September 25, 2018 - 1.5hr
+**Today's Progress**:  
+Namespaces, ReplicaSets and using the API docs to find the properties to create the yml files  
+Define number of replicas  
+Use _matchLabels_ and _matchExpression_  
+
+**Thoughts:**  
+The API docs will help alot now that I understand betting how it is organized  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 43: September 24, 2018 - 1.5hr
 **Today's Progress**:  
 K8s Ult BootCmp: finish chap 4: Persistant volumes, multi container Pods  
