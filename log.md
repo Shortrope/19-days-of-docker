@@ -16,6 +16,7 @@
 Namespaces, ReplicaSets and using the API docs to find the properties to create the yml files  
 Define number of replicas  
 Use _matchLabels_ and _matchExpression_  
+Services: Expose port to real world  
 
 **Thoughts:**  
 The API docs will help alot now that I understand betting how it is organized  
