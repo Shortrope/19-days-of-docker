@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 45: September 26, 2018 - 1hr
+**Today's Progress**:  
+Continue Services: service discovery  
+Could not get my endpoints to display  
+
+**Thoughts:**  
+Starting to burn out on k8s  
+Want to do Python or Blender  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 44: September 25, 2018 - 1.5hr
 **Today's Progress**:  
 Namespaces, ReplicaSets and using the API docs to find the properties to create the yml files  
