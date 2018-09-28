@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 46: September 27, 2018 - 1hr
+**Today's Progress**:  
+k8s ult bc: all of chap 7  
+Deployments, Updates, Rollbacks  
+
+**Thoughts:**  
+I am buning out on this topic.  
+Feel very slow progress  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 45: September 26, 2018 - 1hr
 **Today's Progress**:  
 Continue Services: service discovery  
