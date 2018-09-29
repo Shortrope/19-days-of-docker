@@ -10,6 +10,21 @@
 -->
 
 # 19 Days Of Docker - Log
+## Day 47: September 28, 2018 - 1hr
+**Today's Progress**:  
+Try to figure out how to really use docker in the real world for simple web development.  
+Reviewing creating a single apache container and exposing a port and using a volume  
+Looking into installing docker for windows so I can develop on my desktop  
+Watched half of PluralSight course - Play by Play Docker for Web Developers  
+
+**Thoughts:**  
+I need to get to the practicality of this.  
+Does it really make it easier to develop, share and deploy?  
+
+**Link to work:**  
+<br><br>
+
+---
 
 ## Day 46: September 27, 2018 - 1hr
 **Today's Progress**:  
