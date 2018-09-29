@@ -64,7 +64,7 @@ Create a volume with:
 
 
 ## **Sharing Host Data**
-You can mount  a host directory of file to a container's data volume during container launch (but
+You can mount a host directory or file to a container's data volume during container launch (but
 not during build with a Dockerfile) with
 the `-v` option.  
 The `-v` option has five formats
@@ -75,10 +75,10 @@ The `-v` option has five formats
 - `-v <volume name>:<container mount path>`
 - `-v <volume name>:<container mount path>:<read write mode>`
 
-`<host path>` is an absolute path in the docker host
-`<container mount path>` is an absolute path in the container
-`<read write mode>` can be either `ro` or `rw`
-`<volume name>` is the name of a volume created with `docker volume create`
+`<host path>` is an absolute path in the docker host  
+`<container mount path>` is an absolute path in the container  
+`<read write mode>` can be either `ro` or `rw`  
+`<volume name>` is the name of a volume created with `docker volume create`  
 
 Create a volume and mount it in a container:
 
