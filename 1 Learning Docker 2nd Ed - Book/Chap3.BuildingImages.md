@@ -1,5 +1,14 @@
 # Chap 3
 
+### Docker Image management
+You can view the layers implemented on an image with
+
+    docker history IMAGE_NAME
+
+### Dockerfile Best Practices
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+---
 ## 3. Building Images
 
 Docker's Image building system  
@@ -110,12 +119,4 @@ Exclude directories and files
 
     .git
     *.tmp
-
-### Docker Image management
-You can view the layers implemented on an image with
-
-    docker history IMAGE_NAME
-
-### Dockerfile Best Practices
-https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
