@@ -10,6 +10,18 @@
 -->
 
 # 19 Days Of Docker - Log
+
+## Day 48: September 29, 2018 - 1hr
+**Today's Progress**:  
+Install docker for Windows. Create local web page and publish to remote server
+
+**Thoughts:**  
+Working on Docker workflow
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 47: September 28, 2018 - 1hr
 **Today's Progress**:  
 Try to figure out how to really use docker in the real world for simple web development.  
