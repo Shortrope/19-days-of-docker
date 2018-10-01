@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 49: September 30, 2018 - 3hr
+**Today's Progress**:  
+Start Continuous Delivery w Docker and Ansible - Stopped, not going where I need
+Docker Deep Dive: Mostly Review
+Docker Networking: Start this
+
+**Thoughts:**  
+Still nothing about having multiple containers using the same storage
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 48: September 29, 2018 - 1hr
 **Today's Progress**:  
 Install docker for Windows. Create local web page and publish to remote server
