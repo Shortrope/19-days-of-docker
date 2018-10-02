@@ -1,6 +1,6 @@
 
 <!-- 
-## Day N: September N, 2018 - Nhr
+## Day N: October N, 2018 - Nhr
 **Today's Progress**:  
 **Thoughts:**  
 **Link to work:**  
@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 50: October 1, 2018 - 1hr
+**Today's Progress**:  
+Researching Storage for Swarm mode  
+https://storageos.com/persistent-storage-containers-stateful-apps-docker/
+
+**Thoughts:**  
+This is a tough problem
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 49: September 30, 2018 - 3hr
 **Today's Progress**:  
 Start Continuous Delivery w Docker and Ansible - Stopped, not going where I need
