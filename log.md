@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 51: October 2, 2018 - 1.5hr
+**Today's Progress**:  
+Course: Containerizing an App w Docker  
+Worked with antsle/webssh2: tried to reduce the size of the image with `docker container export` and `docker image import`  
+
+**Thoughts:**  
+This course appears to be much more practical than when I first looked at it  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 50: October 1, 2018 - 1hr
 **Today's Progress**:  
 Researching Storage for Swarm mode  
