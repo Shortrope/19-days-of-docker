@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 52: October 3, 2018 - 1hr
+**Today's Progress**:  
+Commit a Container, Export a containers filesys, import the export to an image  
+Dockerfile instructions: FROM, ENV, ARG  
+
+**Thoughts:**  
+I need to organize my notes better.  
+And set up a method of review to test myself  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 51: October 2, 2018 - 1.5hr
 **Today's Progress**:  
 Course: Containerizing an App w Docker  
