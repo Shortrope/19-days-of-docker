@@ -120,3 +120,32 @@ Examples:
 - Two syntax forms
     - shell
     - exec (prefered)
+
+## HEALTHCHECK
+- Defines a command to test container health
+- The exit status of the command represents the healt status
+    - 0 = healthy
+    - 1 = unhealthy
+- The base image may have a health check instruction
+    - you can negate it w HEALTHCHECK NONE
+- The healthcheck command runs periodically in the container
+    - there are options for _interval_, _timeout_ and _retries_
+    - 30 seconds by default
+- Health status is available via the Docker cli
+    - docker container ls
+    - docker inspect
+
+    HEALTHCHECK [options ] CMD <command>
+    HEALTHCHECK NONE
+
+When a health check fails an event is raised:
+- If in a Swarm, the container is replaced
+- If only on DockerEngine, the event will need to be trapped
+
+Example:
+
+    HEALTHCHECK --interval=3s CMD curl --fail -m 2 http://localhost:80/ || exit 1
+    docker container ls
+    docker system events --since 30m --filter event=health_status
+
+## ONBUILD
