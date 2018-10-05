@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 53: October 4, 2018 - 1hr
+**Today's Progress**:  
+Dockerfile instructions: RUN, COPY, CMD, ENTRYPOINT
+
+**Thoughts:**  
+Definitely getting better insight into the Dockerfile.  
+This course is excelent!  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 52: October 3, 2018 - 1hr
 **Today's Progress**:  
 Commit a Container, Export a containers filesys, import the export to an image  
