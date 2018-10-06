@@ -149,3 +149,12 @@ Example:
     docker system events --since 30m --filter event=health_status
 
 ## ONBUILD
+Deferes execution of instruction until this image is used as the base image of another build.  
+
+## Metadata Instructions
+- EXPOSE
+- LABEL
+- STOPSIGNAL
+- USER
+- VOLUME
+- WORKDIR
