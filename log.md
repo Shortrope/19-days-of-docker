@@ -11,6 +11,31 @@
 
 # 19 Days Of Docker - Log
 
+## Day 55: October 6, 2018 - 3hr
+**Today's Progress**:  
+Difficulty getting Docker on Windows to expose a port to localhost.  
+Implementing: Create a REST API w Python using a docker container   
+
+**Thoughts:**  
+This is great! Excited again. Actually doing something that feels real world and practical  
+Already feeling the need for automation. Having to stop the container and rebuild the image everytime I change the code is a pain in the ass!  
+
+**Link to work:**  
+[pyflask project](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/pythonFlask)
+<br><br>
+
+---
+## Day 54: October 5, 2018 - 1hr
+**Today's Progress**:  
+Containerizing an app course: HEALTHCHECK, 
+
+**Thoughts:**  
+What am I going to implement with docker?
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 53: October 4, 2018 - 1hr
 **Today's Progress**:  
 Dockerfile instructions: RUN, COPY, CMD, ENTRYPOINT
