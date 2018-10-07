@@ -37,11 +37,16 @@ def get_books():
 #POST add_book
 @app.route('/books', methods=['POST'])
 def add_book():
-    new_book = request.get_json()
-    if validBookObj(new_book):
+    request_data = request.get_json()
+    if validBookObj(request_data):
+        new_book = {
+            "name": request_data["name"],
+            "price": request_data["price"],
+            "isbn": request_data["isbn"]
+        }
         books.append(new_book)
-        return jsonify(new_book)
-    return False
+        return "True"
+    return "False"
     
 
 #GET /books/9780xxxx
