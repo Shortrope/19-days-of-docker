@@ -1,4 +1,5 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, Response
+import json
 
 app = Flask(__name__)
 
@@ -45,8 +46,15 @@ def add_book():
             "isbn": request_data["isbn"]
         }
         books.append(new_book)
-        return "True"
-    return "False"
+        response = Response("", 201, mimetype="application/json")
+        response.headers["location"] = "/books/" + str(new_book["isbn"])
+        return response
+    else:
+        invalidBookObjErrorMsg = {
+            "error": "Invalid book object passed in request",
+            "helpString": "Required Properties: {'name': 'bookname', 'price': 7.99, 'isbn': 123456789}"
+        }
+    return Response(json.dumps(invalidBookObjErrorMsg), 400, mimetype="application/json")
     
 
 #GET /books/9780xxxx
