@@ -15,6 +15,14 @@ books = [
     }
 ]
 
+
+def validBookObj(bookObj):
+    if ("name" in bookObj and "price" in bookObj and "isbn" in bookObj):
+        return True
+    return False
+
+
+
 # route w a route decorator
 # decorator binds a function to a url
 @app.route('/')
@@ -30,8 +38,10 @@ def get_books():
 @app.route('/books', methods=['POST'])
 def add_book():
     new_book = request.get_json()
-    books.append(new_book)
-    return jsonify(new_book)
+    if validBookObj(new_book):
+        books.append(new_book)
+        return jsonify(new_book)
+    return False
     
 
 #GET /books/9780xxxx
