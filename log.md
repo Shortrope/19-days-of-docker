@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 56: October 7, 2018 - 1hr
+**Today's Progress**:  
+Did more work on Python REST API w Flask w Docker, but not really docker work
+Started CD w Docker and Ansible, too much work just to get started  
+
+**Thoughts:**  
+May quit docker for a while and start Python but use docker containers for development  
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 55: October 6, 2018 - 3hr
 **Today's Progress**:  
 Difficulty getting Docker on Windows to expose a port to localhost.  
