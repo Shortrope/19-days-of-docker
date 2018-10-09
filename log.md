@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 57: October 8, 2018 - 1.5hr
+**Today's Progress**:  
+Created a separate Dockerfile for a development container  
+
+**Thoughts:**  
+Back on track for finding a practical workflow w docker   
+May change subjects after 60 days..
+
+**Link to work:**  
+[pyflask](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/pythonFlask)
+<br><br>
+
+---
 ## Day 56: October 7, 2018 - 1hr
 **Today's Progress**:  
 Did more work on Python REST API w Flask w Docker, but not really docker work
