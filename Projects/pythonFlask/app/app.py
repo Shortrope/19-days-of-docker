@@ -28,7 +28,7 @@ def validBookObj(bookObj):
 # decorator binds a function to a url
 @app.route('/')
 def hello_world():
-    return "Hey Buddy!"
+    return "<h1>Hey Buddy!</h1><h2>Welcome to my pyflask docker dev environment!</h2>"
 
 #GET /books
 @app.route('/books')
