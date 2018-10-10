@@ -11,6 +11,18 @@
 
 # 19 Days Of Docker - Log
 
+## Day 58: October 9, 2018 - 1hr
+**Today's Progress**:  
+Create Base Dockerfile and image. Then created separate Dockerfiles for Dev and Prod based (FROM) the 'base' (Dockerfile) image  
+Could not remove images by id if the image had two tags.  Must rmi by name.  
+
+**Thoughts:**  
+
+**Link to work:**  
+[pythonFlask](https://github.com/Shortrope/19-days-of-docker/tree/master/Projects/pythonFlask)
+<br><br>
+
+---
 ## Day 57: October 8, 2018 - 1.5hr
 **Today's Progress**:  
 Created a separate Dockerfile for a development container  
