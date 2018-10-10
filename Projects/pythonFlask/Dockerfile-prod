@@ -1,5 +1,6 @@
 FROM shortrope/pyflask-base:latest
 MAINTAINER Mario Kaack
 
-VOLUME ["/app"]
 EXPOSE 5000
+COPY ./app /app
+ENTRYPOINT ["python3", "/app/app.py"]
