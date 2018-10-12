@@ -11,6 +11,19 @@
 
 # 19 Days Of Docker - Log
 
+## Day 60: October 11, 2018 - 1hr
+**Today's Progress**:    
+Built a generic Python image for practicing/learning python  
+
+**Thoughts:**  
+Skipped day 59. 
+Taking a break from Docker/K8s but will try to use docker to implement my python learning and other projects.
+I need something fresh and gain some ideas for thing to implement w Docker.
+
+**Link to work:**  
+<br><br>
+
+---
 ## Day 58: October 9, 2018 - 1hr
 **Today's Progress**:  
 Create Base Dockerfile and image. Then created separate Dockerfiles for Dev and Prod based (FROM) the 'base' (Dockerfile) image  
